@@ -54,7 +54,7 @@ targets:
       - curl
       - elasticsearch
       - nginx|apache2
-      - postgresql|mysql-server|mariadb-server|sqlite
+      - postgresql|postgresql-10|mysql-server|mariadb-server|sqlite
       - libimlib2
     build_dependencies:
       - libimlib2-dev
